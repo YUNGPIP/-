@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>1.11</title>
+	<script type="text/javascript">
+		let info = {"surname":"Орлов","name":"Глеб","patronymic":"Борисович","ocupation":"Стример","degree":"Среднее неполное","category":"Первая","education":"Школа какая-то","discipline":"Dota 3","note":"Не пожарник, а пожарный"};
+		let line =`
+			<h2><i>${info.surname} ${info.name} ${info.patronymic}</i></h2>
+			<p><b>Должность: </b> ${info.ocupation} </p>
+			<p><b>Уровень образования: </b> ${info.degree} </p>
+			<p><b>Категория: </b> ${info.category} </p>
+			<p><b>Образование: </b> ${info.education} </p>
+			<p><b>Дисциплина: </b> ${info.discipline} </p>
+			<p><b>Примечание: </b> ${info.note} </p>
+		`;
+	</script>
+</head>
+<body>
+<div class="content">
+	<script type="text/javascript">
+		document.write(line);
+	</script>
+</div>
+</body>
+</html>
